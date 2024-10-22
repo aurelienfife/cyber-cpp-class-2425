@@ -42,6 +42,5 @@ int main()
     add_and_print(7,8);
     add_and_print(8.7, 6.5);
 
-
     return 0;
 }
