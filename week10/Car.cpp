@@ -41,7 +41,5 @@ int main()
         cout << "The new mileage is: " << tankar.getMileage() << endl;
     }
 
-
-
     return 0;
 }
