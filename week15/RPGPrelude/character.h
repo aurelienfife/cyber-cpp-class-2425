@@ -11,5 +11,7 @@ class Character
 
 public:
 	Character(const string& _name, int _healthPoints);
+
+	string getName();
 };
 
