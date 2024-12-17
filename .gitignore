@@ -34,3 +34,5 @@
 *.ilk
 *.pdb
 .DS_Store
+/week15/RPGPrelude/.vs
+/week15/RPGPrelude/RPGPrelude/x64
