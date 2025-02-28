@@ -1,3 +1,3 @@
 ﻿  main.cpp
-C:\Users\aurelienammeloot\Documents\GitHub\cyber-cpp-class-2425\RandomNumGenerator\RandomNumGenerator\main.cpp(13,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  RandomNumGenerator.vcxproj -> C:\Users\aurelienammeloot\Documents\GitHub\cyber-cpp-class-2425\RandomNumGenerator\RandomNumGenerator\x64\Debug\RandomNumGenerator.exe
+\\ad.fife.ac.uk\Staff\A\aurelienammeloot\Documents\Repositories\cyber-cpp-class-2425\RandomNumGenerator\RandomNumGenerator\main.cpp(19,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  RandomNumGenerator.vcxproj -> \\ad.fife.ac.uk\Staff\A\aurelienammeloot\Documents\Repositories\cyber-cpp-class-2425\RandomNumGenerator\RandomNumGenerator\x64\Debug\RandomNumGenerator.exe

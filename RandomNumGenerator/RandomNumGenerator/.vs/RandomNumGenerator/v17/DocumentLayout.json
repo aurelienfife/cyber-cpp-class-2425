@@ -1,10 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aurelienammeloot\\Documents\\GitHub\\cyber-cpp-class-2425\\RandomNumGenerator\\RandomNumGenerator\\",
+  "WorkspaceRootPath": "\\\\ad.fife.ac.uk\\Staff\\A\\aurelienammeloot\\Documents\\Repositories\\cyber-cpp-class-2425\\RandomNumGenerator\\RandomNumGenerator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{125FF056-12C2-4200-8826-91EB441FF83C}|RandomNumGenerator.vcxproj|C:\\Users\\aurelienammeloot\\Documents\\GitHub\\cyber-cpp-class-2425\\RandomNumGenerator\\RandomNumGenerator\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{125FF056-12C2-4200-8826-91EB441FF83C}|RandomNumGenerator.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{125FF056-12C2-4200-8826-91EB441FF83C}|RandomNumGenerator.vcxproj|\\\\ad.fife.ac.uk\\Staff\\A\\aurelienammeloot\\Documents\\Repositories\\cyber-cpp-class-2425\\RandomNumGenerator\\RandomNumGenerator\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +19,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\aurelienammeloot\\Documents\\GitHub\\cyber-cpp-class-2425\\RandomNumGenerator\\RandomNumGenerator\\main.cpp",
+              "DocumentMoniker": "\\\\ad.fife.ac.uk\\Staff\\A\\aurelienammeloot\\Documents\\Repositories\\cyber-cpp-class-2425\\RandomNumGenerator\\RandomNumGenerator\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\aurelienammeloot\\Documents\\GitHub\\cyber-cpp-class-2425\\RandomNumGenerator\\RandomNumGenerator\\main.cpp",
+              "ToolTip": "\\\\ad.fife.ac.uk\\Staff\\A\\aurelienammeloot\\Documents\\Repositories\\cyber-cpp-class-2425\\RandomNumGenerator\\RandomNumGenerator\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-28T11:59:56.307Z",
               "EditorCaption": ""
