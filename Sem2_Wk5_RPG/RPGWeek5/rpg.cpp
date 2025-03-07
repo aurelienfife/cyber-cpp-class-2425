@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstdlib> // For the generator function
 #include <ctime> // For getting the current time
+#include <memory> // For smart pointers
+#include <Windows.h>
 
 using namespace std;
 
@@ -41,6 +43,9 @@ public:
 // and access methods
 class Character
 {
+// Protected -> private except for inheritance purposes
+protected:
+
     string name;
     int health, strength;
     bool npc;   // Is it an NPC?
@@ -62,11 +67,83 @@ public:
     bool isNpc() { return npc; }
 
     // Combat methods
-    void attack(const Character& adversary) { }
-    void receiveDamage(int damage) { }
+    // updated to receive a pointer instead 
+    virtual void attack(shared_ptr<Character> adversary) { }
+    virtual void receiveDamage(int damage) { }
 };
 
 // Derivative classes: actual characters in the game
+class Knight : public Character
+{
+
+    RandomNumberGenerator r;
+
+public:
+    // New constructor
+    Knight(const string& _name) : Character(_name, 100, 100) { }
+
+    // Overload of attack
+    void attack(shared_ptr<Character> adversary)
+    {
+        int diceRoll = r.generate(strength + 1);
+
+        //cout << "dice roll result " << diceRoll << endl;
+
+        if (diceRoll < 50) { // Miss
+            adversary->receiveDamage(0);
+        }
+        else
+        {
+            adversary->receiveDamage(diceRoll);
+        }
+    }
+
+    // Damage received from attacker
+    void receiveDamage(int damage)
+    {
+        //cout << damage << endl;
+        // Remove 25% of the actual damage from HP
+        health -= damage / 4;
+    }
+};
+
+// Derivative classes: actual characters in the game
+class Troll : public Character
+{
+
+    RandomNumberGenerator r;
+
+public:
+    // New constructor
+    Troll(const string& _name) : Character(_name, 100, 100) 
+    {
+        npc = true;
+    }
+
+    // Overload of attack
+    void attack(shared_ptr<Character> adversary)
+    {
+        int diceRoll = r.generate(strength + 1);
+
+        //cout << "dice roll result " << diceRoll << endl;
+
+        if (diceRoll < 50) { // Miss
+            adversary->receiveDamage(0);
+        }
+        else
+        {
+            adversary->receiveDamage(diceRoll);
+        }
+    }
+
+    // Damage received from attacker
+    void receiveDamage(int damage)
+    {
+        //cout << damage << endl;
+        // Remove 25% of the actual damage from HP
+        health -= damage / 4;
+    }
+};
 
 
 /*
@@ -77,6 +154,39 @@ public:
 int main()
 {
 
+    auto k = make_shared<Knight>("Curtis");
+    auto t = make_shared<Troll>("Stewart");
+
+    // Test code
+    //cout << k->getName() << " " << k->getHealth() << endl;
+
+    bool death = false;
+    // Test loop
+    for(int i = 0; i < 10; i++)
+    {
+        // Test knight attacking itself
+        k->attack(t);
+        t->attack(k);
+        // Display new HP
+        cout << k->getHealth() << endl;
+        cout << k->getHealth() << endl;
+
+        
+        if (k->getHealth() <= 0)
+        {
+            cout << k->getName() << " is dead." << endl;
+            death = true;
+        }
+        if (t->getHealth() <= 0)
+        {
+            cout << t->getName() << " is dead." << endl;
+            death = true;
+        }
+        if (death)
+            break;
+
+        Sleep(100);
+    }
 
     return 0;
 }
