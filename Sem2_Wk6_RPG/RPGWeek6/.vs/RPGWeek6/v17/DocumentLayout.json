@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\ad.fife.ac.uk\\Staff\\A\\aurelienammeloot\\Documents\\Repositories\\cyber-cpp-class-2425\\Sem2_Wk6_RPG\\RPGWeek6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D8555AE-D838-4E61-9357-818B8842FFF8}|RPGWeek6.vcxproj|\\\\ad.fife.ac.uk\\Staff\\A\\aurelienammeloot\\Documents\\Repositories\\cyber-cpp-class-2425\\Sem2_Wk6_RPG\\RPGWeek6\\rpg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "rpg.cpp",
+              "DocumentMoniker": "\\\\ad.fife.ac.uk\\Staff\\A\\aurelienammeloot\\Documents\\Repositories\\cyber-cpp-class-2425\\Sem2_Wk6_RPG\\RPGWeek6\\rpg.cpp",
+              "RelativeDocumentMoniker": "rpg.cpp",
+              "ToolTip": "\\\\ad.fife.ac.uk\\Staff\\A\\aurelienammeloot\\Documents\\Repositories\\cyber-cpp-class-2425\\Sem2_Wk6_RPG\\RPGWeek6\\rpg.cpp",
+              "RelativeToolTip": "rpg.cpp",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAJUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T11:27:26.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

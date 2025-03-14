@@ -1,0 +1,3 @@
+﻿  rpg.cpp
+\\ad.fife.ac.uk\Staff\A\aurelienammeloot\Documents\Repositories\cyber-cpp-class-2425\Sem2_Wk6_RPG\RPGWeek6\rpg.cpp(21,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  RPGWeek6.vcxproj -> \\ad.fife.ac.uk\Staff\A\aurelienammeloot\Documents\Repositories\cyber-cpp-class-2425\Sem2_Wk6_RPG\RPGWeek6\x64\Debug\RPGWeek6.exe

@@ -34,10 +34,9 @@ public:
     }
 };
 
-/*
-    The new classes we will write need to be located underneath the random number generator
-    but above the main function - otherwise it won't compile
-*/
+
+
+
 
 // Character base class - contains the inner data
 // and access methods
